@@ -12,10 +12,10 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// 276 Unicode characters, 276 bytes, ASCII. The plan:
-// day one, spend $40 on APIs + a domain; find 500 US plumbers with no
-// website on Google Maps; build each a 1-page site with AI booking in
-// ~10 minutes; offer $149 setup + $29/mo hosting; close a conservative
+// 276 Unicode characters, 276 bytes, ASCII — under the 280-character limit.
+// The plan: day one, spend $40 on APIs + a domain; find 500 US plumbers
+// with no website on Google Maps; build each a 1-page site with AI booking
+// in ~10 minutes; offer $149 setup + $29/mo hosting; close a conservative
 // 1% = 5 clients = $745 + $145/mo recurring; repeat in a second city,
 // upsell review replies at $49/mo; kill any step earning $0 for 48h.
 const ENTRY =
